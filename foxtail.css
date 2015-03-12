@@ -1,0 +1,54 @@
+.bg{
+ 
+  position:relative;
+float:left; background:url("../images/Firefox-Mobile-OS-Good.jpg") no-repeat scroll 0 0 transparent;
+  height:373px;
+  width:272px;
+    
+}
+
+
+@-moz-keyframes ffox{
+  from{
+    background-position:-6864px 0px;
+  }
+  to{
+    background-position:0 0;
+  }
+    
+}
+
+
+
+@-webkit-keyframes ffox{
+  from{
+    background-position:-6864px 0px;
+  }
+  to{
+    background-position:0 0;
+  }
+    
+}
+
+.recca{
+  -moz-animation: ffox 4s steps(44) infinite;
+    -webkit-animation: ffox 4s steps(44) infinite;
+  float:left;
+  background:url('http://2.bp.blogspot.com/-Mmnm50fZpfM/VQIZdZMDHOI/AAAAAAAAAV8/YRtDTfMpZ8M/s320/foxtail.png') 0 0 no-repeat transparent;
+  position:absolute;
+  top:150px;
+  left:30px;
+  height:156px;
+  width:156px;
+ 
+}
+
+.disclaimer{
+ text-align:left;
+  color:orangered;
+  font-weight:500;
+  width:300px;
+  clear:both;
+  
+  
+}	
